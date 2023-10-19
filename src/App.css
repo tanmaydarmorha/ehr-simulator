@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header{
+  background: #002677;
+  color: white;
+  padding: 20px 30px;
+  font-weight: 700;
+}
+
+.Header p {
+  margin: 0;
+}
+
+.AppBodyWrapper{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  width: 50%;
+}
+
+.dropdownHolder{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.dropdownHolder label{
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #002677
+}
+
+.dropdownHolder select{
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.dropdownHolder option{
+  padding: 10px
+}
+
+.detailsheading{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #002677
+}
+
+
+
+td{
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+td:nth-child(1){
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+td:nth-child(2){
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.summaryWrapper{
+  margin: 20px 30px;
+  padding: 15px;
+  border: 1px solid #c8cacb;
+  border-radius: 4px;
+  border-left: 5px solid #002677;
+}
+
+.summaryHeading{
+  font-weight: 500;
+  margin: 0px;
+}
+
+.summaryInfo{
+  color: rgb(0, 121, 190);
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.detailsInfo{
+  margin: 0px;
+  color: rgb(0, 121, 190)
+}
+
+.source span{
+  color: rgb(0, 121, 190);
+}
+
+.linkWrapper a{
+  background: #0065a3;
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.linkWrapper{
+  margin-bottom: 30px;
+}
+
+.typeLink{
+  color: rgb(0, 121, 190);
+  text-decoration: none;
 }
